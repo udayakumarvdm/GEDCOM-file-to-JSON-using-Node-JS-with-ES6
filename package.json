@@ -1,0 +1,16 @@
+{
+  "name": "npmgedcome",
+  "version": "1.0.0",
+  "description": "gedcome file to json using node js with es6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "udayakumar",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "parse-gedcom": "^1.0.3"
+  }
+}

@@ -1,10 +1,15 @@
 # GEDCOM-file-to-JSON-using-Node-JS-with-ES6
+### In 5 Steps
 
-1. npm install
+1. `git clone https://github.com/udayakumarvdm/GEDCOM-file-to-JSON-using-Node-JS-with-ES6.git`
 
-2. node app.js
+2. `cd GEDCOM-file-to-JSON-using-Node-JS-with-ES6`
 
-3. Run your localhost:8080
+3. `npm install`
+
+4. `npm start`
+
+5. Open your favorite browser in `localhost:8080`
 
 Description:
 	This simple code will return the gedcom file to json using ES6.
@@ -16,7 +21,7 @@ app.js
 1. Set the Babel Register, To Convert your Ecmascript 6 code to ecmascript 5.
 ---------------------------------------------------
     require('babel-register')({
-       presets: [ 'es2015' ]
+       presets: [ 'env' ]
     });
 
 2. Define the module(s), Where we use ES6.
